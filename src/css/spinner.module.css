@@ -1,0 +1,44 @@
+.container{
+    margin: auto;
+}
+
+.spinner {
+    border-bottom: 6px solid teal;
+    border-left: 6px solid teal;
+    border-right: 6px solid transparent;
+    border-radius: 50%;
+    border-top: 6px solid #3498db;
+    border-top: 6px solid teal;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg) scale(1);
+        border-width: 6px;
+       
+    }
+    50%{
+        -webkit-transform: rotate(180deg) scale(1);
+        border-width: 14px;
+    }
+    100% {
+        -webkit-transform: rotate(360deg) scale(1);
+        border-width: 6px;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    50%{
+        transform: rotate(180deg) scale(1.2);
+    }
+    100% {
+        transform: rotate(360deg) scale(1);
+    }
+}

@@ -1,0 +1,276 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans'), url(./fonts/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./fonts/Montserrat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url(./fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+
+
+.App {
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+
+
+
+.button {
+  background-color: royalblue;
+  background-color: teal;
+  border: none;
+  outline: none;
+  color: white;
+  margin: 5px 0px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: Open Sans;
+}
+
+.button:active{
+  background-color: rgb(46, 75, 163);
+  background-color: rgb(3, 100, 100);
+}
+
+
+html, body {
+  min-height: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+
+
+.box-shadow {
+  box-shadow: 0px 0px 2px 2px #131418;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.right-0 {
+  right: 0;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.width-100-pct {
+  width: 100%;
+}
+
+.width-80-pct {
+  width: 80%;
+}
+
+.width-60-pct {
+  width: 60%;
+}
+
+.width-64-px {
+  width: 94px;
+}
+
+.width-100-vw {
+  width: 100vw;
+}
+
+.height-100-pct {
+  height: 100%;
+}
+
+.height-80-pct {
+  height: 80%;
+}
+
+.height-35-px {
+  height: 35px;
+}
+
+.height-45-px {
+  height: 45px;
+}
+
+.height-55-px {
+  height: 55px;
+}
+
+.height-64-px {
+  height: 64px;
+}
+
+.height-25-px {
+  height: 25px;
+}
+
+.height-5-vh {
+  height: 5vh;
+}
+
+.height-10-vh {
+  height: 10vh;
+}
+
+.height-15-vh {
+  height: 15vh;
+}
+
+.bottom-45-px {
+  bottom: 45px;
+}
+
+.bottom-55-px {
+  bottom: 55px;
+}
+
+.top-55-px {
+  top: 55px;
+}
+
+.margin-10-px {
+  margin: 10px
+}
+
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+}
+
+.overflow-scroll-x {
+  overflow-x: scroll;
+}
+
+.justify-content-space-between {
+  justify-content: space-between;
+}
+
+.scroll-behavior-smooth {
+  scroll-behavior: smooth;
+}
+
+
+
+
+.user-select-none {
+  user-select: none;
+}
+
+.background-color-dark {
+  background-color: #1e2027;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.scroll{
+  /* background-color: #61dafb; */
+  scrollbar-width: thin;
+  scrollbar-color: teal transparent;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  position: fixed;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background:rgba(0, 0, 0, 0);
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: teal;
+  border-radius: 0px;
+}
+
+.scroll::-webkit-scrollbar-corner {
+  display: none;
+}
+
+.scroll::-webkit-scrollbar-track-piece{
+  background: transparent;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

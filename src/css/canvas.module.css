@@ -1,0 +1,34 @@
+.container{
+     margin:auto; 
+    display: flex;
+    position: relative;
+}
+
+.canvas {
+ 
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    background-size: 128px 128px;
+    background-attachment: scroll;
+    background-position: center; 
+    background-color: transparent;
+    touch-action: none;
+
+}
+
+
+
+.canvas-layer {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+}

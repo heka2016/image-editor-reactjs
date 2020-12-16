@@ -1,0 +1,33 @@
+.dropdownmenu {
+    height: 100%;
+    position: relative;
+    z-index: 999;
+}
+
+.dropdowncontent {
+    position: absolute;
+    top: 100%;
+    background-color: #131418;
+}
+
+.dropdownup {
+    top: initial;
+    bottom: 100%;
+}
+
+.dropdownbutton {
+    height: 100%;
+    width: 55px;
+    outline: 0;
+    border: 0;
+    border-radius: 0;
+    /*  background-color: rgb(69, 112, 228); */
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 28%;
+}
+
+.dropdownbutton:focus {
+    background-color: rgb(2, 99, 99);
+}

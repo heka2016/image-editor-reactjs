@@ -1,0 +1,42 @@
+.scrollable{
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.content{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+.flexDirectionColumn{
+    flex-direction: column;
+}
+
+.flexDirectionRow{
+    flex-direction: row;
+}
+
+
+
+.scrollable > button{
+    margin: 10px 0px ;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    /* transition: 0.2s ease; */
+}
+
+.scrollable  button:active{
+    background-size:70%;
+    transition: 0.2s ease;
+}

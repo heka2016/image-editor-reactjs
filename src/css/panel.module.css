@@ -1,0 +1,25 @@
+.panel {
+    position: absolute;
+    background-color: #1e2027;
+    z-index: 998;
+    overflow: hidden;
+    color:#fff;
+    display:flex;
+    flex-direction: column;
+}
+
+.left{
+    left: 0;
+}
+
+.right{
+    right: 0;
+}
+
+.top{
+    top:0;
+}
+
+.bottom{
+    bottom:0;
+}

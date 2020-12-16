@@ -1,0 +1,17 @@
+.button {
+    background-color: royalblue;
+    background-color: teal;
+    border-radius: 0;
+    border: none;
+    outline: none;
+    color: white;
+    margin: 5px 0px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: Open Sans;
+}
+
+.button:active {
+    background-color: rgb(46, 75, 163);
+    background-color: rgb(3, 100, 100);
+}

@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  scrollbar-width: thin;
+  scrollbar-color: teal transparent;
+  position: relative;
+
+}
+
+.container::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+  position: fixed;
+}
+
+.container::-webkit-scrollbar-track {
+  background:rgba(0, 0, 0, 0);
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: teal;
+  border-radius: 0px;
+}
+
+.container::-webkit-scrollbar-corner {
+  display: none;
+}
+
+.container::-webkit-scrollbar-track-piece{
+  background: transparent;
+}

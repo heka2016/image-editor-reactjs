@@ -1,0 +1,12 @@
+.animationframe{
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    background-size: 128px 128px;
+    background-attachment: scroll;
+    background-position: center; 
+    background-color: transparent;
+    touch-action: none;
+    margin: auto 8px;
+}

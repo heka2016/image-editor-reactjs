@@ -1,0 +1,10 @@
+.container {
+    margin: auto;
+    position: relative;
+  
+}
+
+.canvas {
+    background-color: black;
+    margin: auto;
+}
