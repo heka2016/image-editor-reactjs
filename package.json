@@ -12,6 +12,7 @@
     "react-device-detect": "^1.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "serve": "^11.3.2",
     "shortid": "^2.2.15"
   },
   "scripts": {
